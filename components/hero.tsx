@@ -22,7 +22,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto text-center space-y-6">
+      <div className="max-w-4xl mx-auto space-y-6 text-left md:text-center">
         <div className="inline-block px-3 py-1 bg-muted rounded-full text-sm font-medium text-foreground/70">
           <span className="font-semibold text-foreground">{displayedText}</span>
           <span className="animate-pulse">|</span>
@@ -32,12 +32,12 @@ export default function Hero() {
           Software Engineer
         </h1>
 
-        <p className="text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto md:mx-auto sm:mx-0">
           I'm a software engineer specializing in MERN stack development, n8n automation, and VAPI.ai integration.
           I craft scalable solutions that blend technical excellence with user-centric design.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-4 pt-4">
+        <div className="flex flex-wrap md:justify-center gap-4 pt-4">
           <a
             href="/contact"
             className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-lg font-medium hover:bg-foreground/90 transition-colors"
@@ -54,7 +54,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="flex justify-center gap-4 pt-4">
+        <div className="flex gap-4 pt-4 md:justify-center sm:justify-start">
           <a
             href="https://github.com/saranvasu2903"
             target="_blank"
